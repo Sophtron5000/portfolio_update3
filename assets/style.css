@@ -2,6 +2,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: rgba(219,244,173);
+}
+
+.bg-light {
+    background-color: rgb(169, 225, 144) !important;
+}
+
+.show {
+    background-color: rgb(165, 170, 82) !important;
+}
+
 .photo {
   display: flex;
   margin: auto;
@@ -20,3 +32,14 @@ p {
     display: flex;
     margin: auto;
 }
+
+.card {
+    background-color: rgb(205, 199, 118);
+}
+
+@media screen and (max-width: 768px) {
+    .aboutMe {
+      width: 100%;
+      margin: 5px;
+    }
+  }

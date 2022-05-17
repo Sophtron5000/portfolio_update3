@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sophia Custodia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
@@ -18,16 +19,16 @@
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+              <h3 class="offcanvas-title" id="offcanvasNavbarLabel">SC</h3>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                  <a class="nav-link active" aria-current="page" href="#about">About Me</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#work" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Body of Work
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
@@ -37,7 +38,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./assets/images/SophiaCustodiaResume2022.pdf">Resume</a>
+                  <a class="nav-link" href="./assets/images/SophiaCustodiaResume2022.pdf" target="_blank">Resume</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,13 +59,13 @@
       </nav>
       <container>
       <img class="photo" src="./assets/images/me.jfif" alt="photo of sophia custodia">
-      <h4>About me</h4>
-      <p class="col-4">I am a developing Coder, born and raised in the Bay Area. My interest in wed
+      <h4 id="about">About me</h4>
+      <p class="col-4 aboutMe">I am a developing Coder, born and raised in the Bay Area. My interest in web
         development started in the age of MySpace, making edits to the HTML. From there my curiosity was
         peaked, I wanted to know how it was made and what it was that kept us all connected.</p>
     </container>
     <container class="mt-5 row justify-content-center">
-        <h4>Body of Work</h4>
+        <h4 id="work">Body of Work</h4>
         <div class="card mb-3" id="project1" style="max-width: 540px;">
             <div class="row g-0">
             <div class="col-md-4">
